@@ -24,10 +24,10 @@ app.get("/", (req, res) => {
 });
 
 // Check if MONGO_URI is provided
-if (!process.env.MONGO_URI) {
-  console.error("❌ MongoDB URI is missing! Check your .env file.");
-  process.exit(1);
-}
+// if (!process.env.MONGO_URI) {
+//   console.error("❌ MongoDB URI is missing! Check your .env file.");
+//   process.exit(1);
+// }
 
 // Connect to MongoDB
 mongoose
