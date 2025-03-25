@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import travelLogRoutes from "./Routes/travelLogRoutes.js";
-import commentRoutes from "./routes/commentRoutes.js";
+import commentRoutes from "./Routes/commentRoutes.js";
 import authRoutes from "./Routes/authRoutes.js"; // ✅ Import auth routes
 
 dotenv.config();
